@@ -6,8 +6,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  height: 100%;
+  width: 100%;
+  background-color: #202020;
   font-family: Falzon Regular, sans-serif;
 }
 
@@ -18,4 +19,15 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.hero-text {
+  font-size: 220px;
+  line-height: 226px;
+}
+
+.hero-image {
+  position: relative;
+  height: 427px;
+  width: 100%;
 }
