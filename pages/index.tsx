@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
+import Header from "../src/components/Header";
 
 const Home: NextPage = () => {
   return (
@@ -12,14 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="my-10 mx-4">
-        <div className="flex justify-between">
-          <Link href={"/"} passHref>
-            <a className="text-3xl uppercase">Menu</a>
-          </Link>
-          <div className="relative w-6 h-6">
-            <Image layout="fill" src="/icons/menu.svg" alt="menu" />
-          </div>
-        </div>
+        <Header />
         <div className="mt-20">
           <h1 className="hero-text uppercase text-white tracking-loose">
             Squad
