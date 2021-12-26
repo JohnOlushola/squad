@@ -1,12 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 export const Header = () => {
   return (
     <div className="flex justify-between items-center">
       <Link href={"/"} passHref>
-        <p className="text-4xl uppercase header-text">Menu</p>
+        <a className="text-4xl uppercase header-text">Menu</a>
       </Link>
       <div>
         <button>
