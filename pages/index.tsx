@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div className="mt-20">
       <h1 className="hero-text uppercase text-white tracking-loose">Squad</h1>
-      <div className="hero-image mt-4" onClick={() => routeTo("/remi")}>
+      <div className="hero-image mt-4" onClick={() => routeTo("/kunle")}>
         <Image
           layout="fill"
           objectFit="cover"
