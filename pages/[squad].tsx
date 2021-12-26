@@ -7,7 +7,7 @@ const SquadPage: NextPage = () => {
 
   // parse query.squad to contain the squad name
   // remove url parameters
-  const squadName = (query.squad as string).split("?")[0];
+  const squadName = ((query?.squad || "kunle") as string).split("?")[0];
 
   return (
     <div>
